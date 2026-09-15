@@ -1,7 +1,9 @@
 # pages/risk/
 
-Empty risk and operations shelf.
+Risk and operations shelf. Rule: [`../../sources/SHELF-RISK.md`](../../sources/SHELF-RISK.md).
 
-What belongs here is named in [`../../sources/SHELF-RISK.md`](../../sources/SHELF-RISK.md).
+| Page | Status | `as-of` |
+|------|--------|---------|
+| [margin-modes.md](margin-modes.md) | Accepted | 2026-09-16 |
 
-There are no accepted pages on this shelf yet. Do not ingest until that work is named on the Taskmap.
+Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
