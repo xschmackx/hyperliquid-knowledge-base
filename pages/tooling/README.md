@@ -1,7 +1,9 @@
 # pages/tooling/
 
-Empty APIs and tooling shelf.
+APIs and tooling shelf. Rule: [`../../sources/SHELF-TOOLING.md`](../../sources/SHELF-TOOLING.md).
 
-What belongs here is named in [`../../sources/SHELF-TOOLING.md`](../../sources/SHELF-TOOLING.md).
+| Page | Status | `as-of` |
+|------|--------|---------|
+| [api-servers.md](api-servers.md) | Accepted | 2026-09-16 |
 
-There are no accepted pages on this shelf yet. Do not ingest until that work is named on the Taskmap.
+Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
