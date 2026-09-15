@@ -10,5 +10,6 @@ Rule copies for a stranger opening this repo. Decision home remains [hlkb-oversi
 | `SHELF-PROTOCOL.md` | What belongs on `pages/protocol/` |
 | `SHELF-MARKETS.md` | What belongs on `pages/markets/` |
 | `SHELF-ACCOUNTS.md` | What belongs on `pages/accounts/` |
+| `SHELF-RISK.md` | What belongs on `pages/risk/` |
 
 This folder is not an official-source index. That is later Taskmap work.
