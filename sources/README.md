@@ -9,5 +9,6 @@ Rule copies for a stranger opening this repo. Decision home remains [hlkb-oversi
 | `REGISTER-RULES.md` | Observation vocabulary and filing |
 | `SHELF-PROTOCOL.md` | What belongs on `pages/protocol/` |
 | `SHELF-MARKETS.md` | What belongs on `pages/markets/` |
+| `SHELF-ACCOUNTS.md` | What belongs on `pages/accounts/` |
 
 This folder is not an official-source index. That is later Taskmap work.
