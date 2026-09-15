@@ -1,7 +1,8 @@
 # register/
 
-Empty shelf.
+Empty observation register.
 
-Observation entries will live here. Rules: [`../sources/REGISTER-RULES.md`](../sources/REGISTER-RULES.md).
+Shelf rule: [`../sources/SHELF-REGISTER.md`](../sources/SHELF-REGISTER.md)  
+Filing rule: [`../sources/REGISTER-RULES.md`](../sources/REGISTER-RULES.md)
 
-The register records what exists or changed. It does not mint work. There are no entries yet.
+Entries will be `R-HLKB-NNN.md`. There are none yet. The register does not mint work.
