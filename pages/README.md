@@ -1,13 +1,13 @@
 # pages/
 
-Empty shelves for accepted corpus pages. There are none yet.
+Accepted corpus pages live under the shelves below.
 
-| Path | Shelf |
-|------|--------|
-| `protocol/` | Protocol — see `../sources/SHELF-PROTOCOL.md` |
-| `markets/` | Markets — see `../sources/SHELF-MARKETS.md` |
-| `accounts/` | Accounts, fees, rewards — see `../sources/SHELF-ACCOUNTS.md` |
-| `risk/` | Risk and operations — see `../sources/SHELF-RISK.md` |
-| `tooling/` | APIs and tooling — see `../sources/SHELF-TOOLING.md` |
+| Path | Shelf | Accepted pages |
+|------|--------|----------------|
+| `protocol/` | Protocol | [what-hyperliquid-is.md](protocol/what-hyperliquid-is.md) |
+| `markets/` | Markets | none |
+| `accounts/` | Accounts, fees, rewards | none |
+| `risk/` | Risk and operations | none |
+| `tooling/` | APIs and tooling | none |
 
-Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
+Rules: `../sources/SHELF-*.md`. Source index: `../sources/OFFICIAL-SOURCE-INDEX.md`.
