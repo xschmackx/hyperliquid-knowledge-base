@@ -1,7 +1,9 @@
 # pages/markets/
 
-Empty markets shelf.
+Markets shelf. Rule: [`../../sources/SHELF-MARKETS.md`](../../sources/SHELF-MARKETS.md).
 
-What belongs here is named in [`../../sources/SHELF-MARKETS.md`](../../sources/SHELF-MARKETS.md).
+| Page | Status | `as-of` |
+|------|--------|---------|
+| [perpetual-markets.md](perpetual-markets.md) | Accepted | 2026-09-16 |
 
-There are no accepted pages on this shelf yet. Do not ingest until that work is named on the Taskmap.
+Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
