@@ -6,5 +6,6 @@ Markets shelf. Rule: [`../../sources/SHELF-MARKETS.md`](../../sources/SHELF-MARK
 |------|--------|---------|
 | [perpetual-markets.md](perpetual-markets.md) | Accepted | 2026-09-16 |
 | [spot-markets.md](spot-markets.md) | Accepted | 2026-09-16 |
+| [order-types-and-the-book.md](order-types-and-the-book.md) | Accepted | 2026-09-16 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
