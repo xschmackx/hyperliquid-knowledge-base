@@ -1,17 +1,18 @@
 # sources/
 
-Rule copies for a stranger opening this repo. Decision home remains [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
+Rule copies and the official source index. Decision home remains [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
 
 | File | Rule |
 |------|------|
+| `OFFICIAL-SOURCE-INDEX.md` | Dated first-party source list (I1, as-of 2026-09-15) |
 | `SOURCE-RANK.md` | What may support an accepted page |
 | `VOICE-AND-COVERAGE.md` | Who a page is for, and what complete means |
 | `REGISTER-RULES.md` | Observation vocabulary and filing |
-| `SHELF-PROTOCOL.md` | What belongs on `pages/protocol/` |
-| `SHELF-MARKETS.md` | What belongs on `pages/markets/` |
-| `SHELF-ACCOUNTS.md` | What belongs on `pages/accounts/` |
-| `SHELF-RISK.md` | What belongs on `pages/risk/` |
-| `SHELF-TOOLING.md` | What belongs on `pages/tooling/` |
-| `SHELF-REGISTER.md` | What belongs in `register/` |
+| `SHELF-PROTOCOL.md` | `pages/protocol/` |
+| `SHELF-MARKETS.md` | `pages/markets/` |
+| `SHELF-ACCOUNTS.md` | `pages/accounts/` |
+| `SHELF-RISK.md` | `pages/risk/` |
+| `SHELF-TOOLING.md` | `pages/tooling/` |
+| `SHELF-REGISTER.md` | `register/` |
 
-This folder is not an official-source index. That is later Taskmap work.
+This folder is not accepted coverage. Coverage pages, when named, live under `pages/`.
