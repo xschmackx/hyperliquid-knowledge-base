@@ -5,5 +5,6 @@ APIs and tooling shelf. Rule: [`../../sources/SHELF-TOOLING.md`](../../sources/S
 | Page | Status | `as-of` |
 |------|--------|---------|
 | [api-servers.md](api-servers.md) | Accepted | 2026-09-16 |
+| [info-endpoint.md](info-endpoint.md) | Accepted | 2026-09-16 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
