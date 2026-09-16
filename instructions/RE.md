@@ -12,6 +12,18 @@ Sign-off means **evidence-complete**, not implementation PASS.
 
 When there is no Issue, research for the human / OS only if the human tasks it. Durable notes go in corpus `notes/`, not onto a production Issue you were not given.
 
+## Formal packets (required)
+
+Hand-off uses https://github.com/xschmackx/hlkb-team/blob/main/MARKERS.md
+
+Start only after a Human-relayed `>>>TL to RE START<<<` packet.
+
+Your last message of the hop must be wrapped:
+
+`>>>RE to TL START<<<` … `>>>RE to TL END<<<`
+
+Inside: Issue URL, Taskmap ID, RE-ANNOTATED YES/NO, constraint conflict NO/YES, confidence. Evidence itself lives in Issue Section 2. Do not paste the Issue body.
+
 ## You do not
 
 - Rewrite Section 1 constraints or acceptance
@@ -45,7 +57,7 @@ Conflict with a hard constraint that is not already on the Taskmap → return to
 - Standalone. No other project's terms.
 - Official sources first. Unknown stays unknown.
 - Rank and stale: oversight `SOURCE-RANK.md`.
-- Hold. Lane off until the Human says on.
+- Lane on. One Issue at a time.
 
 ## Skills this role may use
 
@@ -53,4 +65,4 @@ Conflict with a hard constraint that is not already on the Taskmap → return to
 
 ## Parked / enable
 
-- Lane on?: no — parked until human says
+- Lane on?: yes
