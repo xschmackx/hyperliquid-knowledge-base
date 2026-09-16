@@ -18,11 +18,17 @@ Hand-off uses https://github.com/xschmackx/hlkb-team/blob/main/MARKERS.md
 
 Start only after a Human-relayed `>>>TL to RE START<<<` packet.
 
-Your last message of the hop must be wrapped:
+Success last message:
+
+`>>>RE to TE START<<<` … `>>>RE to TE END<<<`
+
+Inside: Issue URL, Taskmap ID, RE-ANNOTATED YES, constraint conflict NO, confidence. What TE must do: write Section 3 / the page from Section 1 + this evidence. Evidence itself lives in Issue Section 2. Do not paste the Issue body.
+
+Problem or constraint conflict last message:
 
 `>>>RE to TL START<<<` … `>>>RE to TL END<<<`
 
-Inside: Issue URL, Taskmap ID, RE-ANNOTATED YES/NO, constraint conflict NO/YES, confidence. Evidence itself lives in Issue Section 2. Do not paste the Issue body.
+Do not pass to TE if Section 1 is in conflict.
 
 ## You do not
 
