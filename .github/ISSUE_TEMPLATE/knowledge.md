@@ -1,7 +1,7 @@
 ---
 name: Knowledge Issue
 about: One Taskmap item. TL writes from the OS Taskmap. Chat is not the contract.
-title: "P1 — Info endpoint"
+title: "{{TASK_ID}} — {{SHORT_TITLE}}"
 labels: []
 ---
 
@@ -32,7 +32,7 @@ labels: []
 ## 1. TL — Decision artifact (from OS Taskmap)
 
 ### Goal
-{{Copy from the Human packet / Taskmap item.}}
+{{Copy from the Taskmap item.}}
 
 ### Why now
 {{One paragraph.}}
@@ -45,11 +45,11 @@ labels: []
 - Do not implement later Taskmap IDs on this Issue.
 
 ### Scope — In
-- {{from packet}}
+- {{from Taskmap / shelf}}
 
 ### Scope — Out
 - Implementation of later Taskmap IDs
-- {{from packet}}
+- {{from Taskmap / shelf}}
 
 ### Acceptance criteria
 - [ ] Accepted page or written gap at the path named in Section 1
@@ -66,7 +66,7 @@ labels: []
 - Date:
 - TL-COMPLETE: YES / NO
 - Taskmap ID matched: YES / NO
-- Human accept to proceed: YES / NO / N/A
+- Human accept to proceed: N/A
 
 ---
 
