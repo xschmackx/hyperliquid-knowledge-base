@@ -1,8 +1,4 @@
-> Copy for the corpus stranger. Decision home: [hlkb-oversight/SHELF-PROTOCOL.md](https://github.com/xschmackx/hlkb-oversight/blob/main/SHELF-PROTOCOL.md). Do not fork a second protocol shelf.
-
 # SHELF — PROTOCOL
-
-Durable doctrine. S1. Recorded as D-HLKB-009.
 
 This page names what belongs on the protocol shelf. It is not an accepted corpus page. It does not ingest facts.
 
@@ -35,7 +31,7 @@ Place a page on this shelf when its scoped question is one of these:
 | HyperEVM | Execution component for general-purpose contracts. Same consensus. Not a dapp directory. |
 | One state | How HyperCore and HyperEVM share HyperBFT and pass value or reads. Native transfers belong here as mechanism. |
 | Dual-block | HyperEVM fast/slow block design as protocol architecture. |
-| Nodes as L1 participants | What a node is in the protocol. Runbooks and client how-to live on Tooling (S5) or Risk and ops (S4). |
+| Nodes as L1 participants | What a node is in the protocol. Runbooks and client how-to live on Tooling or Risk and operations. |
 
 Throughput, latency, chain IDs, and similar figures may appear on a protocol page only with `as-of` + URL under `SOURCE-RANK.md`. This shelf rule does not record those figures.
 
@@ -45,11 +41,11 @@ Throughput, latency, chain IDs, and similar figures may appear on a protocol pag
 
 | Topic | Shelf |
 |-------|--------|
-| Order types, books, listings, HIP-3 markets as products | S2 Markets |
-| Fees, rewards, HYPE as discount or payout | S3 Accounts and fees |
-| Liquidation *parameters*, margin *use*, incident response | S4 Risk and ops |
-| REST, WebSocket, RPC how-to, SDKs, explorers | S5 Tooling |
-| Observation entries | S6 Register |
+| Order types, books, listings, HIP-3 markets as products | Markets |
+| Fees, rewards, HYPE as discount or payout | Accounts and fees |
+| Liquidation *parameters*, margin *use*, incident response | Risk and operations |
+| REST, WebSocket, RPC how-to, SDKs, explorers | Tooling |
+| Observation entries | Register |
 
 If a page needs both the mechanism and the product, split it. Mechanism stays here. Product goes to the other shelf. Link across. Do not duplicate the claim in two voices.
 
@@ -57,22 +53,9 @@ If a page needs both the mechanism and the product, split it. Mechanism stays he
 
 ## Filing
 
-- Accepted pages, when they exist: `pages/protocol/<slug>.md`
-- Empty shelf marker now: corpus `pages/protocol/README.md`
-- This rule: oversight `SHELF-PROTOCOL.md`. Stranger copy: corpus `sources/SHELF-PROTOCOL.md`
+- Accepted pages: `pages/protocol/<slug>.md`
+- Shelf index: `pages/protocol/README.md`
 
-No accepted protocol page is opened by this decision. Slots above are names for later pages, not a promise that each slot is already known.
+Slots above are names for pages, not a promise that each slot is already known.
 
-If official docs do not cover a slot, the later page writes a gap. It does not fill from chat.
-
----
-
-## Where this rule lives
-
-| Role | Where |
-|------|--------|
-| Decision home | `hlkb-oversight/SHELF-PROTOCOL.md` |
-| Stranger copy | `hyperliquid-knowledge-base/sources/SHELF-PROTOCOL.md` |
-| Pages | `hyperliquid-knowledge-base/pages/protocol/` |
-
-`DECISION-LOG.md` records acceptance. `Notebook/` is not this shelf.
+If official docs do not cover a slot, the later page writes a gap.
