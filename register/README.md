@@ -1,8 +1,10 @@
 # register/
 
-Empty observation register.
+Empty observation register. This folder is the stranger entry for live entries.
 
-Shelf rule: [`../sources/SHELF-REGISTER.md`](../sources/SHELF-REGISTER.md)  
-Filing rule: [`../sources/REGISTER-RULES.md`](../sources/REGISTER-RULES.md)
+Rules live on [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight):
+
+- Filing: `REGISTER-RULES.md`
+- Shelf: `SHELF-REGISTER.md`
 
 Entries will be `R-HLKB-NNN.md`. There are none yet. An observation does not create work.
