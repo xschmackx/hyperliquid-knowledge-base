@@ -1,10 +1,6 @@
-> Copy for the corpus stranger. Decision home: [hlkb-oversight/SOURCE-RANK.md](https://github.com/xschmackx/hlkb-oversight/blob/main/SOURCE-RANK.md). Do not fork a second rank order.
-
 # SOURCE RANK — Hyperliquid Knowledge Base
 
-Durable doctrine. D2. Recorded as D-HLKB-005.
-
-This page is the rule for what may support an accepted corpus page. It is not an index of live URLs and it is not ingest.
+This page is the rule for what may support an accepted corpus page. It is not an index of live URLs.
 
 ---
 
@@ -20,7 +16,7 @@ Higher rank wins when sources disagree. A lower-rank source may explain or point
 | 4 | Secondary | Independent documentation, research, journalism, dashboards, and mirrors. Tagged. |
 | 5 | Community / informal | Unofficial chats, forums, unaffiliated social posts, unsourced threads. Tagged. Never the sole support for an accepted claim. |
 
-**Not a source.** Private context. Chat. `Notebook/`. Another project's notes. Rumour. These do not enter an accepted page.
+**Not a source.** Private context. Rumour. These do not enter an accepted page.
 
 Same rank, later official `as-of` wins for *current* state. Keep an earlier claim only on a page labelled historical.
 
@@ -69,19 +65,6 @@ Stale is not a licence to erase history. A historical page keeps its old `as-of`
 
 If Rank 1–3 do not say it, the corpus does not assert it.
 
-- Do not fill a hole with Rank 4–5 voice, chat, or private context.
+- Do not fill a hole with Rank 4–5 voice or private context.
 - "People say" is not a fact.
-- A gap is written as a gap. It becomes a Taskmap item when the Human names that work. It is not a guessed paragraph.
-
----
-
-## Where this rule lives
-
-| Role | Where |
-|------|--------|
-| Decision home | `hlkb-oversight/SOURCE-RANK.md` |
-| Stranger copy | This file: `hyperliquid-knowledge-base/sources/SOURCE-RANK.md` |
-
-`DECISION-LOG.md` on oversight records acceptance. `Notebook/` is not this rule. Chat is not this rule.
-
-Do not fork a second rank order.
+- A gap is written as a gap. It is not a guessed paragraph.
