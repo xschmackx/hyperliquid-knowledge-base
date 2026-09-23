@@ -1,10 +1,10 @@
 # sources/
 
-Rule copies and the official source index. Decision home remains [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
+Rule copies and the official source index.
 
 | File | Rule |
 |------|------|
-| `OFFICIAL-SOURCE-INDEX.md` | Dated first-party source list (I1, as-of 2026-09-15) |
+| `OFFICIAL-SOURCE-INDEX.md` | Dated first-party source list (`as-of` 2026-09-15) |
 | `SOURCE-RANK.md` | What may support an accepted page |
 | `VOICE-AND-COVERAGE.md` | Who a page is for, and what complete means |
 | `REGISTER-RULES.md` | Observation vocabulary and filing |
@@ -15,4 +15,4 @@ Rule copies and the official source index. Decision home remains [hlkb-oversight
 | `SHELF-TOOLING.md` | `pages/tooling/` |
 | `SHELF-REGISTER.md` | `register/` |
 
-This folder is not accepted coverage. Coverage pages, when named, live under `pages/`.
+This folder is not accepted coverage. Coverage pages live under `pages/`.
