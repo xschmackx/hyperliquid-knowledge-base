@@ -1,8 +1,4 @@
-> Copy for the corpus stranger. Decision home: [hlkb-oversight/SHELF-MARKETS.md](https://github.com/xschmackx/hlkb-oversight/blob/main/SHELF-MARKETS.md). Do not fork a second markets shelf.
-
 # SHELF — MARKETS
-
-Durable doctrine. S2. Recorded as D-HLKB-010.
 
 This page names what belongs on the markets shelf. It is not an accepted corpus page. It does not ingest facts.
 
@@ -37,7 +33,7 @@ Place a page on this shelf when its scoped question is one of these:
 | HIP-3 | Builder-deployed perpetual markets. Market definition and deployer duties as published. |
 | Oracles and marks | Oracle and mark used to *define* a market. Not trader-facing margin math. |
 | Funding | Funding as a market mechanism. |
-| Protocol vaults | HLP and other official protocol vaults as liquidity products. Deposit lock as product rule. Fee-share *rates* live on S3. |
+| Protocol vaults | HLP and other official protocol vaults as liquidity products. Deposit lock as product rule. Fee-share *rates* live on Accounts. |
 | Aligned quote assets | Official aligned-quote primitive as a market building block. |
 
 A live catalogue of every listed coin is not required for a page to belong here. If a page lists markets, every row needs `as-of` + URL. This shelf rule does not record that catalogue.
@@ -48,11 +44,11 @@ A live catalogue of every listed coin is not required for a page to belong here.
 
 | Topic | Shelf |
 |-------|--------|
-| HyperCore / HyperEVM as execution components; native transfers as L1 mechanism | S1 Protocol |
-| Trading fees, maker/taker schedule, rewards, HYPE as discount or payout | S3 Accounts and fees |
-| Liquidation *parameters*, margin *use*, position risk, incident response | S4 Risk and ops |
-| How to send an order over REST, WebSocket, or SDK | S5 Tooling |
-| Observation entries | S6 Register |
+| HyperCore / HyperEVM as execution components; native transfers as L1 mechanism | Protocol |
+| Trading fees, maker/taker schedule, rewards, HYPE as discount or payout | Accounts and fees |
+| Liquidation *parameters*, margin *use*, position risk, incident response | Risk and operations |
+| How to send an order over REST, WebSocket, or SDK | Tooling |
+| Observation entries | Register |
 
 If a page needs both the product and the fee or the risk number, split it. Product stays here. Link across. Do not duplicate the claim in two voices.
 
@@ -60,22 +56,9 @@ If a page needs both the product and the fee or the risk number, split it. Produ
 
 ## Filing
 
-- Accepted pages, when they exist: `pages/markets/<slug>.md`
-- Empty shelf marker now: corpus `pages/markets/README.md`
-- This rule: oversight `SHELF-MARKETS.md`. Stranger copy: corpus `sources/SHELF-MARKETS.md`
+- Accepted pages: `pages/markets/<slug>.md`
+- Shelf index: `pages/markets/README.md`
 
-No accepted markets page is opened by this decision. Slots above are names for later pages, not a promise that each slot is already known.
+Slots above are names for pages, not a promise that each slot is already known.
 
-If official docs do not cover a slot, the later page writes a gap. It does not fill from chat.
-
----
-
-## Where this rule lives
-
-| Role | Where |
-|------|--------|
-| Decision home | `hlkb-oversight/SHELF-MARKETS.md` |
-| Stranger copy | `hyperliquid-knowledge-base/sources/SHELF-MARKETS.md` |
-| Pages | `hyperliquid-knowledge-base/pages/markets/` |
-
-`DECISION-LOG.md` records acceptance. `Notebook/` is not this shelf.
+If official docs do not cover a slot, the later page writes a gap.
