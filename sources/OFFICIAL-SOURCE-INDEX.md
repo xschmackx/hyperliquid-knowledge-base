@@ -1,7 +1,5 @@
 # OFFICIAL SOURCE INDEX
 
-Build item I1. Recorded as D-HLKB-015.
-
 **Page `as-of`:** 2026-09-15  
 **Checked:** official docs index `llms.txt` plus the official GitHub org landing page.
 
@@ -44,12 +42,12 @@ Where a later page should live if it draws from that official section.
 
 | Official section | Shelf |
 |------------------|--------|
-| About, HyperCore overview, HyperEVM architecture, dual-block, validators, staking-as-consensus, nodes-as-L1 | S1 `pages/protocol/` |
-| Trading products, order types, books, funding, HIP-1 / HIP-2 / HIP-3 / HIP-4, vaults as products, aligned quote assets | S2 `pages/markets/` |
-| Fees, sub-accounts, referrals, points, builder codes as fee logic, staking rewards | S3 `pages/accounts/` |
-| Margining, margin tiers, liquidations, ADL, portfolio margin as risk, delist consequences | S4 `pages/risk/` |
-| API, info, exchange, WebSocket, signing, rate limits, JSON-RPC, node how-to, official SDKs | S5 `pages/tooling/` |
-| Support FAQ, onboarding how-to | Split: user action on S3 or S5; L1 mechanism on S1. Do not file FAQ as protocol fact without the Rank 1 page. |
+| About, HyperCore overview, HyperEVM architecture, dual-block, validators, staking-as-consensus, nodes-as-L1 | Protocol — `pages/protocol/` |
+| Trading products, order types, books, funding, HIP-1 / HIP-2 / HIP-3 / HIP-4, vaults as products, aligned quote assets | Markets — `pages/markets/` |
+| Fees, sub-accounts, referrals, points, builder codes as fee logic, staking rewards | Accounts — `pages/accounts/` |
+| Margining, margin tiers, liquidations, ADL, portfolio margin as risk, delist consequences | Risk — `pages/risk/` |
+| API, info, exchange, WebSocket, signing, rate limits, JSON-RPC, node how-to, official SDKs | Tooling — `pages/tooling/` |
+| Support FAQ, onboarding how-to | Split: user action on Accounts or Tooling; L1 mechanism on Protocol. Do not file FAQ as protocol fact without the Rank 1 page. |
 
 ---
 
@@ -76,7 +74,7 @@ From https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api.md (chec
 | Mainnet | https://api.hyperliquid.xyz | wss://api.hyperliquid.xyz/ws |
 | Testnet | https://api.hyperliquid-testnet.xyz | wss://api.hyperliquid-testnet.xyz/ws |
 
-HyperEVM JSON-RPC hosts published on official HyperEVM docs (checked earlier in this desk, still treated as official on this `as-of`):
+HyperEVM JSON-RPC hosts published on official HyperEVM docs (checked 2026-09-15, still treated as official on this `as-of`):
 
 | Network | JSON-RPC |
 |---------|----------|
@@ -119,14 +117,5 @@ Cite them only tagged `secondary`.
 - Brand kit, audits, bug bounty, historical data are official pages; not mapped in detail here.
 - Whether every repo under `hyperliquid-dex` is first-party publish is **unknown** until listed on a later check.
 - Official Discord is linked from the GitHub org; channel-level canon is **unknown** without a Rank 1 statement that a given channel is official communication.
-
----
-
-## Where this index lives
-
-| Role | Where |
-|------|--------|
-| Live index | `hyperliquid-knowledge-base/sources/OFFICIAL-SOURCE-INDEX.md` |
-| Oversight copy | `hlkb-oversight/SOURCE-INDEX.md` |
 
 Refresh this file when `llms.txt` or the official org page changes on a cited hub. Do not silently keep a stale hub URL.
