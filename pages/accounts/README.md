@@ -11,5 +11,6 @@ Accounts, fees, rewards shelf. Rule: [`../../sources/SHELF-ACCOUNTS.md`](../../s
 | [builder-codes.md](builder-codes.md) | Accepted | 2026-09-27 |
 | [staking-fee-discount.md](staking-fee-discount.md) | Accepted | 2026-09-27 |
 | [staking-rewards.md](staking-rewards.md) | Accepted | 2026-09-27 |
+| [published-fee-shares.md](published-fee-shares.md) | Accepted | 2026-09-27 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
