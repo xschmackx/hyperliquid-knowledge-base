@@ -11,5 +11,6 @@ Protocol shelf. Rule: [`../../sources/SHELF-PROTOCOL.md`](../../sources/SHELF-PR
 | [hyperbft.md](hyperbft.md) | Accepted | 2026-09-27 |
 | [hypercore.md](hypercore.md) | Accepted | 2026-09-27 |
 | [hyperevm.md](hyperevm.md) | Accepted | 2026-09-28 |
+| [nodes.md](nodes.md) | Accepted | 2026-09-28 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
