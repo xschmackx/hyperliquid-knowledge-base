@@ -8,5 +8,6 @@ APIs and tooling shelf. Rule: [`../../sources/SHELF-TOOLING.md`](../../sources/S
 | [info-endpoint.md](info-endpoint.md) | Accepted | 2026-09-16 |
 | [exchange-endpoint.md](exchange-endpoint.md) | Accepted | 2026-09-17 |
 | [websocket.md](websocket.md) | Accepted | 2026-09-17 |
+| [official-sdks.md](official-sdks.md) | Accepted | 2026-09-28 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
