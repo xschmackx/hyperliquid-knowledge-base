@@ -10,5 +10,6 @@ Risk and operations shelf. Rule: [`../../sources/SHELF-RISK.md`](../../sources/S
 | [portfolio-margin.md](portfolio-margin.md) | Accepted | 2026-09-17 |
 | [margin-tiers.md](margin-tiers.md) | Accepted | 2026-09-17 |
 | [hip-3-margin.md](hip-3-margin.md) | Accepted | 2026-09-17 |
+| [initial-and-maintenance-margin.md](initial-and-maintenance-margin.md) | Accepted | 2026-09-28 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
