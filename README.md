@@ -3,7 +3,7 @@
 A source-ranked corpus of the Hyperliquid ecosystem, written so any builder, developer, user, client, regulator, or competitor can use it without private context.
 
 **First accepted page:** [`pages/protocol/what-hyperliquid-is.md`](pages/protocol/what-hyperliquid-is.md)  
-**Last accepted page:** [`pages/markets/aligned-quote-assets.md`](pages/markets/aligned-quote-assets.md)
+**Last accepted page:** [`pages/tooling/official-explorers-and-status.md`](pages/tooling/official-explorers-and-status.md)
 
 Accepted-page index: [`pages/README.md`](pages/README.md).
 
