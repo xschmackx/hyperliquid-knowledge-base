@@ -12,5 +12,6 @@ APIs and tooling shelf. Rule: [`../../sources/SHELF-TOOLING.md`](../../sources/S
 | [hyperevm-rpc.md](hyperevm-rpc.md) | Accepted | 2026-09-28 |
 | [nodes-as-clients.md](nodes-as-clients.md) | Accepted | 2026-09-28 |
 | [official-explorers-and-status.md](official-explorers-and-status.md) | Accepted | 2026-09-28 |
+| [nonces-and-api-wallets.md](nonces-and-api-wallets.md) | Accepted | 2026-11-09 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
