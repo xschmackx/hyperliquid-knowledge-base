@@ -3,14 +3,14 @@
 | Field | Value |
 |-------|--------|
 | Shelf | Accounts, fees, rewards (`pages/accounts/`) |
-| Scope | Perps vs spot schedules, maker/taker, 14-day volume tiers, maker rebates, staking discount as a fee multiplier. Not referrals-as-a-product. Not builder-code SDK. Not staking-as-security. |
+| Scope | Perps vs spot schedules, maker/taker, 14-day volume tiers, maker rebates, staking discount as a fee multiplier. Outcome-token fee treatment as published. Not referrals-as-a-product. Not builder-code SDK. Not staking-as-security. |
 | Status | Accepted |
-| Page `as-of` | 2026-09-16 |
-| Rank | All claims below are Rank 1 |
+| Page `as-of` | 2026-11-11 |
+| Rank | All claims below are Rank 1 unless tagged |
 
-This page does not cover the referral program as a product, builder-code integration, staking APY or unstaking queues, margin, or liquidation. Account units live on [Account types](account-types.md). Balance buckets live on [Balances](balances.md).
+This page does not cover the referral program as a product, builder-code integration, staking APY or unstaking queues, margin, or liquidation. Account units live on [Account types](account-types.md). Balance buckets live on [Balances](balances.md). Outcome-market product lives on [HIP-4 outcome markets](../markets/hip-4-outcome-markets.md).
 
-All tables below are official published figures on 2026-09-16, not a desk measurement. Official change on the Fees page makes this page stale until re-checked.
+All tables below are official published figures on 2026-09-16, not a desk measurement. Official change on the Fees page makes this page stale until re-checked. Outcome-token rules below are from the Fees leaf checked 2026-11-11.
 
 ---
 
@@ -27,7 +27,7 @@ Official account-unit sentence on that page: sub-account volume counts toward th
 
 Maker rebates are paid out continuously on each trade directly to the trading wallet.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16 (tier rules); outcome rules checked 2026-11-11.
 
 ---
 
@@ -45,7 +45,7 @@ Official published on 2026-09-16, not a desk measurement.
 | 5 | >2B | 0.026% | 0.000% | 0.0156% | 0.0000% | 0.0182% | 0.0000% | 0.0208% | 0.0000% | 0.0221% | 0.0000% | 0.0234% | 0.0000% | 0.0247% | 0.0000% |
 | 6 | >7B | 0.024% | 0.000% | 0.0144% | 0.0000% | 0.0168% | 0.0000% | 0.0192% | 0.0000% | 0.0204% | 0.0000% | 0.0216% | 0.0000% | 0.0228% | 0.0000% |
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -63,7 +63,7 @@ Official published on 2026-09-16, not a desk measurement.
 | 5 | >2B | 0.030% | 0.000% | 0.0180% | 0.0000% | 0.0210% | 0.0000% | 0.0240% | 0.0000% | 0.0255% | 0.0000% | 0.0270% | 0.0000% | 0.0285% | 0.0000% |
 | 6 | >7B | 0.025% | 0.000% | 0.0150% | 0.0000% | 0.0175% | 0.0000% | 0.0200% | 0.0000% | 0.0213% | 0.0000% | 0.0225% | 0.0000% | 0.0238% | 0.0000% |
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -77,7 +77,7 @@ Official published on 2026-09-16, not a desk measurement.
 | 2 | >1.5% | -0.002% |
 | 3 | >3.0% | -0.003% |
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -96,7 +96,7 @@ Official published on 2026-09-16, not a desk measurement. This is a fee multipli
 
 Official staking-linking rule on the same Fees page: a staking user and a trading user can be linked so staked HYPE on the staking user is attributed to the trading user's fees. Linking is permanent; unlinking is not supported. After the link, the staking user does not receive the staking-related fee discount. No link action is required if the same address both trades and stakes. How the signed link action is built is out of scope.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -109,7 +109,7 @@ Official Fees page, dated 2026-09-16:
 
 What counts as an aligned quote asset is not specified here.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -117,7 +117,7 @@ Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) 
 
 Official Fees page: referral **rewards** apply for a user's first **$1B** in volume. Referral **discounts** apply for a user's first **$25M** in volume. The referral program itself is not specified here.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
 
 ---
 
@@ -132,7 +132,34 @@ Official Fees page:
 
 Eligibility lists and validator-vote examples on that page are not specified here.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-16.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-16.
+
+---
+
+## Outcome-token fee treatment
+
+Official Fees page, Outcome tokens section, checked 2026-11-11:
+
+Outcome trading only charges fees when closing or settling, not when opening outcome positions. Only fee-paying volume is counted for outcome trading.
+
+Six cases:
+
+1. Minting, no one pays fee: no volume is counted
+2a. Normal Trade where one side pays fee: both users get `fee_paying_px * sz`
+2b. Normal Trade where no one pays fee: no volume is counted
+3a. Burning, both sides pay fee: both users get `(maker_px + taker_px) * sz = 1 * sz`
+3b. Burning, only taker pays fee: both users get `taker_px * sz`
+4. Settlement: each user gets `settle_fraction * sz`
+
+Outcome trading does not support rebates. Users who would receive rebates for spot and perp trading pay zero fees on maker orders.
+
+An official announcement (Rank 3, 2026-08-14) states that the average outcome trading fee will be half that of non-outcome spot trading, and that outcome trading only charges fees when closing or settling, not when opening. Example given: Tier 0 user with no previous volume opens as taker (no fee) and closes as taker (0.07%). The Rank-1 Fees leaf does not print the "average half" phrase; it prints the close/settle rule, the six volume cases, and the no-rebates rule. This page tags the average-half claim as Rank 3.
+
+The outcome-market product itself is on [HIP-4 outcome markets](../markets/hip-4-outcome-markets.md). Official HIP-4 page text (older) still says fees are currently zero for initial testing. Prefer this Fees treatment for current status. Any discrepancy is left as published.
+
+No Rank-1 sentence on the Fees leaf invents stacking of outcome fees with staking discounts, builder fees, or referral caps beyond the printed no-rebates rule. Do not invent rates.
+
+Sources: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-11-11; [Announcement: Outcome (HIP-4) fees will be enabled](https://app.hyperliquid.xyz/announcement/tm2eqyd9aa) (Rank 3, 2026-08-14).
 
 ---
 
@@ -140,7 +167,7 @@ Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) 
 
 - How Wood–Diamond columns combine with the separate staking-discount table when both apply: **unknown here** beyond the official tables sitting on the same page.
 - Exact meaning of “14d weighted maker volume” percentages in the rebate table (share of exchange maker volume versus something else): **unknown here**. Official header is that phrase.
-- Outcome-token fee cases exist on the Fees page and are **not specified here**.
+- How outcome fees stack with staking discounts, builder fees, or referral caps beyond the printed no-rebates rule: **unknown here**. Fees leaf is silent beyond no rebates.
 
 ---
 
@@ -148,4 +175,5 @@ Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) 
 
 | URL | Rank | Checked |
 |-----|------|---------|
-| https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md | 1 | 2026-09-16 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees | 1 | 2026-09-16 (schedules); 2026-11-11 (outcome tokens) |
+| https://app.hyperliquid.xyz/announcement/tm2eqyd9aa | 3 | 2026-11-11 |
