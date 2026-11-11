@@ -15,5 +15,6 @@ Markets shelf. Rule: [`../../sources/SHELF-MARKETS.md`](../../sources/SHELF-MARK
 | [protocol-vaults.md](protocol-vaults.md) | Accepted | 2026-09-17 |
 | [aligned-quote-assets.md](aligned-quote-assets.md) | Accepted | 2026-09-17 |
 | [spot-deploy-sequence.md](spot-deploy-sequence.md) | Accepted | 2026-11-09 |
+| [hip-4-outcome-markets.md](hip-4-outcome-markets.md) | Accepted | 2026-11-11 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
