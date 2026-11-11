@@ -5,12 +5,14 @@
 | Shelf | APIs and tooling (`pages/tooling/`) |
 | Scope | Official published rate limits per IP (REST aggregated weight, WebSocket caps, EVM RPC) and address-based user limits on Hyperliquid. Not the role or catalog of the info endpoint, exchange endpoint, or WebSocket (those stay on accepted pages). Not official SDK usage. Not nonce or API wallet rules. |
 | Status | Accepted |
-| Page `as-of` | 2026-11-09 |
+| Page `as-of` | 2026-11-11 |
 | Rank | Claims below are Rank 1 unless tagged |
 
 This page records the official rate limits and user limits as published. A stranger can use it to stay inside the published request limits per IP, per WebSocket, and per trading address and avoid silent failures or 429s. What the info endpoint *is*, what the exchange endpoint *is*, and what WebSocket channels exist stay on the accepted pages. Official names only. Unknown stays unknown.
 
-Sources: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-09.
+Rank-1 re-check on 2026-11-11 found no material clarifications versus the prior as-of 2026-11-09. Weights, address vs IP treatment, batched requests, congestion rules, userRateLimit fields, and the expiresAfter note remain as published. Unpublished edge cases stay unknown.
+
+Sources: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-11.
 
 ---
 
@@ -46,7 +48,7 @@ Maximum of 100 EVM JSON-RPC requests per minute for `rpc.hyperliquid.xyz/evm`. N
 
 Official page: Use websockets for lowest latency realtime data.
 
-Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-09.
+Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-11.
 
 ---
 
@@ -62,7 +64,7 @@ During high congestion, addresses are limited to use 2x their previous day maker
 
 Official exchange endpoint notes that actions consume 5x usual address-based rate limit when canceled due to stale `expiresAfter`. That note stays on [`exchange-endpoint.md`](exchange-endpoint.md). Nonce rules are separate and stay on [`nonces-and-api-wallets.md`](nonces-and-api-wallets.md).
 
-Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-09.
+Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-11.
 
 ---
 
@@ -70,7 +72,7 @@ Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid
 
 Official page: A batched request with `n` orders (or cancels) is treated as one request for IP based rate limiting, but as `n` requests for address-based rate limiting.
 
-Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-09.
+Source: [Rate limits and user limits](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md) — checked 2026-11-11.
 
 ---
 
@@ -82,7 +84,7 @@ The type itself and its request shape stay on [`info-endpoint.md`](info-endpoint
 
 Weight for this info request is 20 (all other documented info requests).
 
-Source: [Info endpoint](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md) — checked 2026-11-09; weight context from the rate-limits page.
+Source: [Info endpoint](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md) — checked 2026-11-11; weight context from the rate-limits page.
 
 ---
 
@@ -97,6 +99,7 @@ Official page publishes the limits themselves. It does not detail the HTTP statu
 - Exact HTTP response, status code body, or retry guidance when a limit is exceeded: **unknown here**. Official page does not publish it on this `as-of`.
 - Whether other unofficial or community-reported weights or caps exist: **unknown here**. Official page is the source used.
 - Full fee-tier scaling math for maker share beyond the published example: **unknown here** by scope. Fee schedules stay out of this shelf.
+- Special cases for outcome markets (HIP-4) or other new actions on rate limits: **unknown here**. Not published on Rank-1 sources as of this check.
 
 ---
 
@@ -104,6 +107,8 @@ Official page publishes the limits themselves. It does not detail the HTTP statu
 
 | URL | Rank | Checked |
 |-----|------|---------|
-| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md | 1 | 2026-11-09 |
-| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md | 1 | 2026-11-09 |
-| https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt | 1 | 2026-11-09 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/rate-limits-and-user-limits.md | 1 | 2026-11-11 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md | 1 | 2026-11-11 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/exchange-endpoint.md | 1 | 2026-11-11 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/error-responses.md | 1 | 2026-11-11 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt | 1 | 2026-11-11 |
