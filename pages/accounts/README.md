@@ -6,7 +6,7 @@ Accounts, fees, rewards shelf. Rule: [`../../sources/SHELF-ACCOUNTS.md`](../../s
 |------|--------|---------|
 | [account-types.md](account-types.md) | Accepted | 2026-09-16 |
 | [balances.md](balances.md) | Accepted | 2026-09-16 |
-| [trading-fees.md](trading-fees.md) | Accepted | 2026-09-16 |
+| [trading-fees.md](trading-fees.md) | Accepted | 2026-11-11 |
 | [referrals.md](referrals.md) | Accepted | 2026-09-27 |
 | [builder-codes.md](builder-codes.md) | Accepted | 2026-09-27 |
 | [staking-fee-discount.md](staking-fee-discount.md) | Accepted | 2026-09-27 |
