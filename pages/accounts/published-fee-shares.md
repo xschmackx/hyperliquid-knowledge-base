@@ -109,7 +109,7 @@ Official recipient hook named on HIP-3 deployer actions: `setFeeRecipient`. How 
 
 HIP-3 product (stake, listing slots, slashing) stays on [HIP-3 builder-deployed perps](../markets/hip-3-markets.md).
 
-Sources: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md); [HIP-3: Builder-deployed perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals.md); [HIP-3 deployer actions](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md) — checked 2026-09-27.
+Sources: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees); [HIP-3: Builder-deployed perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals.md); [HIP-3 deployer actions](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md) — checked 2026-09-27.
 
 ---
 
@@ -125,7 +125,7 @@ Official Fees leaf uses both **90%** and **≥90%**. This page does not collapse
 
 Eligibility lists and validator-vote examples stay off this page.
 
-Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-27.
+Source: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-27.
 
 ---
 
@@ -163,7 +163,7 @@ What AQAv1 versus AQAv2 *is* stays on [Aligned quote assets](../markets/aligned-
 
 On this 2026-09-27 re-read of [HIP-3 deployer actions](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md), the 2026-09-17 comment “no aligned quote assets on mainnet” was **not** on the fetched leaf. Live mainnet inventory of aligned quote assets is **unknown here**.
 
-Sources: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md); [Aligned quote assets](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/aligned-quote-assets.md); [Permissionless spot quote assets](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/permissionless-spot-quote-assets.md); [HIP-3: Builder-deployed perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals.md); [HIP-3 deployer actions](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md) — checked 2026-09-27.
+Sources: [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees); [Aligned quote assets](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/aligned-quote-assets.md); [Permissionless spot quote assets](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/permissionless-spot-quote-assets.md); [HIP-3: Builder-deployed perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals.md); [HIP-3 deployer actions](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md) — checked 2026-09-27.
 
 ---
 
@@ -179,7 +179,7 @@ Official Fees destination sentence: fees are entirely directed to the community 
 
 HLP as a liquidity product (4-day lock, community-owned, liquidations) stays on [Protocol vaults](../markets/protocol-vaults.md).
 
-Sources: [Protocol vaults](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/protocol-vaults.md); [HyperCore vaults (legacy)](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/hypercore-vaults-legacy.md); [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md) — checked 2026-09-27.
+Sources: [Protocol vaults](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/protocol-vaults.md); [HyperCore vaults (legacy)](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/vaults/hypercore-vaults-legacy.md); [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) — checked 2026-09-27.
 
 ---
 
@@ -206,7 +206,7 @@ Official Fees leaf is the spine for share *rates*. Official HIP-3 leaf repeats t
 - Whether the HIP-3 alignment condition has shipped, and how it maps v1 vs v2: **unknown here**. Official text still says the condition is being updated.
 - Live mainnet inventory of aligned quote assets: **unknown here** on this check.
 - How builder-code fee stacks with HIP-3 deployer share: already **unknown** on [Builder codes](builder-codes.md).
-- Outcome-token fee cases: already **not specified** on [Trading fees](trading-fees.md). Not opened here.
+- Outcome-token fee treatment: covered on [Trading fees](trading-fees.md) (close/settle only; six volume cases; no rebates; Rank-3 average-half tagged). Stacking beyond no-rebates remains unknown there. Not reopened here.
 
 ---
 
@@ -214,7 +214,7 @@ Official Fees leaf is the spine for share *rates*. Official HIP-3 leaf repeats t
 
 | URL | Rank | Checked |
 |-----|------|---------|
-| https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees.md | 1 | 2026-09-27 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees | 1 | 2026-09-27 |
 | https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals.md | 1 | 2026-09-27 |
 | https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions.md | 1 | 2026-09-27 |
 | https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/aligned-quote-assets.md | 1 | 2026-09-27 |
