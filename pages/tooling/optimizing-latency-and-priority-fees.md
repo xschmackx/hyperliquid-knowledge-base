@@ -5,12 +5,12 @@
 | Shelf | APIs and tooling (`pages/tooling/`) |
 | Scope | Official published guidance on optimizing read and write latency, and on priority fees (gossip and order). Includes mempool prioritization restrictions and priority-fee timing as published. Not fee economics or risk rules. Not unofficial clients. |
 | Status | Accepted |
-| Page `as-of` | 2026-11-11 |
+| Page `as-of` | 2026-11-13 |
 | Rank | Claims below are Rank 1 unless tagged |
 
 This page records the official suggestions for reducing latency when reading market data or sending orders and cancels, and the official priority-fee mechanisms. A stranger can use it to understand the published options for lower latency and the current mempool and fee rules. Official names only. Unknown stays unknown. The suggestions are informational only and do not guarantee any latency or trading outcome.
 
-Sources: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md); [Priority fees](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md) — checked 2026-11-11.
+Sources: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md); [Priority fees](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md) — checked 2026-11-13.
 
 ---
 
@@ -29,7 +29,7 @@ Official page publishes these starting points:
 
 Node flags, local data layouts, and Foundation peer access stay on [`nodes-as-clients.md`](nodes-as-clients.md). What a node is on the L1 stays on the protocol shelf.
 
-Source: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md) — checked 2026-11-11.
+Source: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md) — checked 2026-11-13.
 
 ---
 
@@ -44,11 +44,11 @@ Official page publishes these points:
 5. Users who want to reduce the end-to-end write latency (for example to predict the sequence of transactions that will be committed) can read them from split client blocks in the non-validating node. This approach does not include the execution result of the transaction.
 6. Mempool prioritization has restrictions on the actions sent:
    - Mempool prioritization works only for users in Standard abstraction. Latency-sensitive users should not use abstractions such as Unified Account and Portfolio Margin.
-   - Actions other than `noop`, `scheduledCancel`, `cancel`, `cancelByCloid`, `order`, `modify`, `batchModify` sent on HyperCore cause all actions to be deprioritized while that action has not yet been committed. This holds across sub-accounts associated with and vaults led by the same master user that originated the non-trading action.
+   - Actions other than `noop`, `scheduledCancel`, `cancel`, `cancelByCloid`, `order`, `modify`, `batchModify` sent on HyperCore cause all actions to be deprioritized while that action has not yet been committed. This holds across sub-accounts associated with and vaults led by the same master user which originate the non-trading action sent. It does not affect other subaccounts of vaults of the same master account.
    - Users who have ever directly sent CoreWriter actions are deprioritized in the mempool. This does not affect the vast majority of CoreWriter use cases that go through smart contracts rather than the user itself.
    - IOC and ALO priority fees require a minimum delegatable balance of 10 HYPE. The priority fee charged remains a function of only the executed size.
 
-Source: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md) — checked 2026-11-11.
+Source: [Optimizing latency](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md) — checked 2026-11-13.
 
 ---
 
@@ -103,7 +103,7 @@ Unlike for IOC orders, ALO priority fees do not effect mempool prioritization. A
 
 Gossip priority fees can be read from the `replica_cmds` files recorded by nodes. The USDC value of the priority fee amounts can be computed as `order_price * order_sz * grouping_priority_rate`. The order_book_server maintains the correct level ordering by using the `insertBefore` field on `RawBookDiff::New` from the `raw_book_diff` files.
 
-Source: [Priority fees](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md) — checked 2026-11-11.
+Source: [Priority fees](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md) — checked 2026-11-13.
 
 ---
 
@@ -120,6 +120,6 @@ Source: [Priority fees](https://hyperliquid.gitbook.io/hyperliquid-docs/for-deve
 
 | URL | Rank | Checked |
 |-----|------|---------|
-| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md | 1 | 2026-11-11 |
-| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md | 1 | 2026-11-11 |
-| https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt | 1 | 2026-11-11 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/optimizing-latency.md | 1 | 2026-11-13 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/priority-fees.md | 1 | 2026-11-13 |
+| https://hyperliquid.gitbook.io/hyperliquid-docs/llms.txt | 1 | 2026-11-13 |
