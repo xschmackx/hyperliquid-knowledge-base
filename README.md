@@ -3,7 +3,7 @@
 A source-ranked corpus of the Hyperliquid ecosystem, written so any builder, developer, user, client, regulator, or competitor can use it without private context.
 
 **First accepted page:** [`pages/protocol/what-hyperliquid-is.md`](pages/protocol/what-hyperliquid-is.md)  
-**Last accepted page:** [`pages/tooling/optimizing-latency-and-priority-fees.md`](pages/tooling/optimizing-latency-and-priority-fees.md)
+**Last accepted page:** [`pages/accounts/hype-token-and-assistance-fund.md`](pages/accounts/hype-token-and-assistance-fund.md)
 
 Accepted-page index: [`pages/README.md`](pages/README.md).
 
