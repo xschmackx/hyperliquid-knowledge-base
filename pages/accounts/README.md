@@ -13,5 +13,6 @@ Accounts, fees, rewards shelf. Rule: [`../../sources/SHELF-ACCOUNTS.md`](../../s
 | [staking-rewards.md](staking-rewards.md) | Accepted | 2026-09-27 |
 | [published-fee-shares.md](published-fee-shares.md) | Accepted | 2026-09-27 |
 | [hype-token-and-assistance-fund.md](hype-token-and-assistance-fund.md) | Accepted | 2026-11-14 |
+| [multi-sig.md](multi-sig.md) | Accepted | 2026-11-14 |
 
 Do not add a page until that work is named on the Taskmap in [hlkb-oversight](https://github.com/xschmackx/hlkb-oversight).
