@@ -1,6 +1,6 @@
 # Hyperliquid Knowledge Base
 
-A source-ranked corpus of the Hyperliquid ecosystem, written so any builder, developer, user, client, regulator, or competitor can use it without private context.
+A source-ranked corpus of the Hyperliquid ecosystem, written so any builder, developer, user, client, auditor, regulator, or competitor can use it without private context.
 
 **First accepted page:** [`pages/protocol/what-hyperliquid-is.md`](pages/protocol/what-hyperliquid-is.md)  
 **Last accepted page:** [`pages/accounts/multi-sig.md`](pages/accounts/multi-sig.md)
